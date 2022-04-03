@@ -20,7 +20,7 @@ body {
   /* Using font imported from Google Font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto Serif', sans-serif;
+  font-family: 'Roboto Serif';
 }
 
 .content{
