@@ -1,14 +1,17 @@
+// Import Resources
 import logo from './logo.svg';
+
+// Import Styles
 import './App.css';
+
+// Import Components
+import NavigationBar from './components/shared/navigationBar/navigationBar';
 
 function App() {
 
   return (
     <div className="App">
-      <div className="content" id='app-main-content'>
-        <h1>Sample-Blog</h1>
-      </div>
-
+      <NavigationBar></NavigationBar>
     </div>
 
   );
