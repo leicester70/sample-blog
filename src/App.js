@@ -7,6 +7,7 @@ import './codepenCSS/scrollbar.css'
 
 // Import Components
 import NavigationBar from './components/shared/navigationBar/navigationBar';
+import ViewEntry from './components/home/viewEntry/viewEntry'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <NavigationBar></NavigationBar>
       <div className="main-content-container">
-        
+        <ViewEntry></ViewEntry>
       </div>
     </div>
 
