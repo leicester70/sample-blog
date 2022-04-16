@@ -24,6 +24,10 @@ body {
   pointer-events: none;
 }
 
+.main-content-container{
+  min-height: 1200px;
+}
+
 /* Others */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
