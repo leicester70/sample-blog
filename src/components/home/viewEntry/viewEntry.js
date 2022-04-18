@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
+import './style.css';
 
-class viewEntry extends Component {
-
-      componentDidMount() {
-            const d = new Date();
-            let dateTimeText = d.toString();
-            document.getElementById("dateTime").innerHTML = dateTimeText
-      }
+class viewEntry extends Component { 
 
       render() {
+
+            const d = new Date();
+            let dateTimeText = d.toString();
+
             return (
                   <div className="entry-view-container">
 
                         {/* Prototype */}
                         <h2>Sample Entry Title</h2>
-                        <p className>
+                        <p className="date-txt">{dateTimeText}</p>
+                        <p className="blog-para">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non nibh mi. Proin sollicitudin sollicitudin nisl, et consectetur lorem maximus quis. Quisque eget dapibus lectus. Integer lorem tortor, fringilla nec libero non, lacinia ornare risus. Curabitur tempus, libero sed feugiat tempor, ligula arcu laoreet odio, feugiat gravida arcu leo a urna. Vivamus arcu dolor, fringilla pulvinar arcu eget, finibus eleifend orci. Curabitur auctor vel tortor a congue. Praesent placerat feugiat felis, vel dapibus tellus accumsan sit amet. Suspendisse vulputate, risus eget porta congue, orci urna dapibus nibh, a iaculis lacus mauris at odio. Etiam id odio non felis rhoncus malesuada id vitae leo. Cras eu dui mauris. Vivamus consectetur hendrerit velit, a vulputate urna tristique et. Phasellus sodales, tortor non imperdiet tristique, mi ante malesuada neque, eget luctus nisl quam non mi.
 
                               Aliquam posuere tortor eget ipsum fermentum, et dapibus erat placerat. Morbi eget interdum sapien. Praesent sagittis est dui, nec euismod enim laoreet nec. Praesent hendrerit, metus eget tincidunt lobortis, nisl lectus bibendum velit, sit amet luctus lacus mi eu felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque luctus fermentum nisi ut venenatis. Sed tempus finibus dictum. Sed placerat erat non rhoncus tristique. Pellentesque at feugiat felis, sit amet dictum augue. Sed semper leo et lacus posuere rutrum. Aenean sed maximus ipsum. Maecenas diam nisi, sodales et nisi in, accumsan egestas felis. Nulla facilisi. Aenean rhoncus, felis at sodales fermentum, lorem lorem porttitor urna, id gravida massa dolor nec nibh.
@@ -25,7 +25,6 @@ class viewEntry extends Component {
 
                               Aliquam erat volutpat. Suspendisse vulputate egestas eros, id fermentum neque egestas quis. Donec vitae augue dui. Nullam libero felis, aliquet nec ullamcorper in, bibendum in lorem. Cras non tempor purus. Donec posuere odio at tempus feugiat. Nam dignissim interdum nisl ut viverra. Proin faucibus ultricies orci sed volutpat.
                         </p>
-                        <p id="dateTime"></p>
 
                   </div>
             );

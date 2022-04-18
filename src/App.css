@@ -3,18 +3,18 @@
 
 body {
   margin: 0px;
-  background-color: #333;
+  background-color: #333 !important;
 
   /* Font Styling for rendered components */
-  color: hsl(0, 0%, 85%);
-  letter-spacing: 0.06em;
-  font-weight: lighter;
-  line-height: 1.6em;
-  text-align: justify;
+  color: hsl(0, 0%, 85%) !important;
+  letter-spacing: 0.06em !important;
+  font-weight: lighter !important;
+  line-height: 1.6em !important;
+  text-align: justify !important;
 
   /* Using font imported from Google Font */
   /* font-family: 'Segoe UI Serif'; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .App {
