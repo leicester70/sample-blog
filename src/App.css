@@ -6,8 +6,11 @@ body {
   background-color: #333;
 
   /* Font Styling for rendered components */
-  color: #eee;
-  letter-spacing: 0.25em;
+  color: hsl(0, 0%, 85%);
+  letter-spacing: 0.06em;
+  font-weight: lighter;
+  line-height: 1.6em;
+  text-align: justify;
 
   /* Using font imported from Google Font */
   /* font-family: 'Segoe UI Serif'; */
