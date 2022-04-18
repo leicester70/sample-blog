@@ -3,19 +3,21 @@
 
 body {
   margin: 0px;
-  background-color:  #333;
+  background-color: #333;
 
   /* Font Styling for rendered components */
   color: #eee;
   letter-spacing: 0.25em;
+
+  /* Using font imported from Google Font */
+  /* font-family: 'Segoe UI Serif'; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .App {
   /* text-align: center; */
-  /* Using font imported from Google Font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Segoe UI Serif';
   margin: 0px 10%;
 }
 
@@ -24,7 +26,7 @@ body {
   pointer-events: none;
 }
 
-.main-content-container{
+.main-content-container {
   min-height: 1200px;
 }
 
