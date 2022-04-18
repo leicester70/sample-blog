@@ -16,11 +16,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Segoe UI Serif';
+  margin: 0px 10%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.main-content-container{
+  min-height: 1200px;
 }
 
 /* Others */
