@@ -6,7 +6,7 @@ class timeLine extends Component {
     render() {
         return (
             <div className="tl-container">
-                <h2>Timeline</h2>
+                <h2 className='tl-header'>Timeline</h2>
                 <hr></hr>
                 <MonthSelect/>
             </div>

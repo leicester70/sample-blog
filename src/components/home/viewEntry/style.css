@@ -1,4 +1,5 @@
 .entry-view-container{
+    margin-bottom: 6em;
     color: rgb(153, 153, 153);
 }
 
@@ -8,5 +9,5 @@
 }
 
 .blog-para{
-    
+    margin-top: 1.5em;
 }

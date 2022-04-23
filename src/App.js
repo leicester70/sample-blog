@@ -17,8 +17,8 @@ function App() {
     <div className="App">
       <NavigationBar />
       <div className="main-content-container d-flex">
-        <div className='col-4'><TimeLine /></div>
-        <div className='col-8'>
+        <div className='col-4 col-md-4 col-lg-2'><TimeLine /></div>
+        <div className='col-8 col-md-8 col-lg-10'>
           <ViewEntry />
           <ViewEntry />
           <ViewEntry />
