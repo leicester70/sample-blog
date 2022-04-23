@@ -4,7 +4,7 @@ A journaling web application.
 
 ### Functionalities
 
-## Members & Roles in the project
+## Contributor Roles
 > [Lester Cheong](https://github.com/leicester70) (Me)
 > <br>Programmer
 
