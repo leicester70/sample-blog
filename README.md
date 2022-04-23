@@ -1,6 +1,6 @@
 # Project: sample-blog
 A journaling web application. 
-*(We have not came up with a proper name)*
+<br>*(We have not came up with a proper name)*
 
 ### Functionalities
 
