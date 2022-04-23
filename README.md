@@ -6,10 +6,10 @@ A journaling web application.
 
 ## Members & Roles in the project
 > [Lester Cheong](https://github.com/leicester70) (Me)
-> - Programmer
+> Programmer
 
 >  [Shanice Yeong](https://github.com/hyosus) (💦💦PeePeePooPoo Girl💩💩)
->  - UI/UX Designer
+>  UI/UX Designer
 
 
 ## Technologies Used
