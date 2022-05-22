@@ -3,16 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+//  'Rotue' for 'Routes'
+import CreateEntry from './components/createEntry/CreateEntry';
+
 import reportWebVitals from './reportWebVitals';
 
 // Router
 import { render } from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Routes>
+        <Route path="/" element={<App />}></Route>
+        <Route path="/CreateEntry" element={<CreateEntry />}></Route>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
