@@ -14,12 +14,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className="index-render">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/CreateEntry" element={<CreateEntry />}></Route>
       </Routes>
     </BrowserRouter>
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );
