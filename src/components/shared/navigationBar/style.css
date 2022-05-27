@@ -1,18 +1,40 @@
+.logo{
+    background-color: rgb(195, 0, 255);
+    padding: 15px;
+    border-radius: 50%;
+}
+
 .nav{
+    width: 100%;
     display: inline-flex;
-    padding: 2em 0em;
+    margin: 5em 0px 2.5em;
+    padding: 1.25em;
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
 .ul{
-    margin: auto;
-    padding: 0px 15px 0px 15px;
+    margin: auto 0px;
+    padding: 0px 15px;
     width: fit-content;
     display: inline-flex;
     flex-wrap: wrap;
 }
 
+.ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .links{
-    list-style-type: none;
-    padding: 1em;
+    margin-right: 1em;
+    padding: 0.35em 1em;
     width: fit-content;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.links:hover{
+    background-color: white;
+    color:black !important;
+    transition: 0.5s;
 }
