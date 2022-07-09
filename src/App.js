@@ -11,11 +11,13 @@ import NavigationBar from './components/shared/navigationBar/navigationBar';
 import ViewEntry from './components/home/viewEntry/viewEntry'
 import TimeLine from './components/home/timeLine/timeLine';
 
+import LoginBanner from './components/createLogin/CreateLoginBanner'
+
 function App() {
 
   return (
     <div className="App">
-      <NavigationBar />
+      {/* <NavigationBar />
       <div className="main-content-container d-flex">
         <div className='col-4 col-md-4 col-lg-2'><TimeLine /></div>
         <div className='col-8 col-md-8 col-lg-10'>
@@ -24,7 +26,7 @@ function App() {
           <ViewEntry />
           <ViewEntry />
         </div>
-      </div>
+      </div> */}
     </div>
 
   );
