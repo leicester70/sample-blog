@@ -1,5 +1,5 @@
 # Project: sample-blog
-A journaling web application. 
+I dont know, im doing whatever the hell i like
 <br>*(We have not came up with a proper name)*
 
 ### Functionalities
