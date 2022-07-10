@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import './style.css';
+import { Link } from "react-router-dom";
 
-class navigationBar extends Component {
+class NavigationBar extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <nav className="nav boradius-15">
+                <h1 className="logo">📔</h1>
+                <ul className="ul">
+                    <Link to="/"><li className="links boradius-5">Journal</li></Link>
+                    <Link to="/CreateEntry"><li className="links boradius-5">Create Entry</li></Link>
+                </ul>
+            </nav>
         );
     }
 }
 
-navigationBar.propTypes = {
-
-};
-
-export default navigationBar;
+export default NavigationBar;
